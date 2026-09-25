@@ -55,3 +55,13 @@
 **Why I chose this prompt:** _____
 
 **What I kept / changed / rejected and why:** _____
+
+---
+
+## Entry 4 - Phase 1: Backend skeleton
+**Prompt:**
+> phase 0 is done and working. now implement phase 1. stop after this phase and tell me how to verify it.
+
+**Why I chose this prompt:** _____
+
+**What I kept / changed / rejected and why:** _____
