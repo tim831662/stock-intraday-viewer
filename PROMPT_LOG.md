@@ -65,3 +65,23 @@
 **Why I chose this prompt:** _____
 
 **What I kept / changed / rejected and why:** _____
+
+---
+
+## Entry 5 - Phase 2: Grouping logic and unit tests
+**Prompt:**
+> phase 1 is done and working. now implement phase 2. stop after this phase and tell me how to verify it.
+
+**Why I chose this prompt:** _____
+
+**What I kept / changed / rejected and why:** _____
+
+---
+
+## Entry 6 - Phase 2: Fill gaps in the grouping tests
+**Prompt:**
+> ok can you check the tests and again and make sure they cover what is needed? For example, I don't see it checking for 0 volume. Look at all the tests again and let me know what you change/added
+
+**Why I chose this prompt:** _____
+
+**What I kept / changed / rejected and why:** _____
