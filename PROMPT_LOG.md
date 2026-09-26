@@ -32,7 +32,7 @@
 >
 > you can add this prompt log thing into the implementation plan
 
-**Why I chose this prompt:** I took preliminary notes on how the project should be built and what it needs on a high level and wanted it to be built in phases.
+**Why I chose this prompt:** I took preliminary notes on how the project should be built and what it needs on a high level and wanted it to be built in phases. Also including the creation of a prompt log in the implementation plan.
 
 **What I kept / changed / rejected and why:** I kept the md file generated because it was a detailed phase implementation plan, that fulfilled my requirements and added more implementation details that made sense
 
@@ -140,7 +140,7 @@
 **Prompt:**
 > Refractor the frontend to make it look more professional and production level. Do not make logic changes. Then put this prompt in the prompt log
 
-**Why I chose this prompt:** UI was very basic and was not production ready so wanted to upgrade it.
+**Why I chose this prompt:** UI was very basic and was not production ready so wanted to upgrade it and didn't want it to change any logic.
 
 **What I kept / changed / rejected and why:** Kept it all, made the app much more clean and appealing.
 
@@ -153,5 +153,15 @@
 **Why I chose this prompt:** Finished with having it right the readme so that people know how to run the app
 
 **What I kept / changed / rejected and why:** Kept it all, just a simple explanation of how it works.
+
+---
+
+## Entry 14 - Route and frontend tests
+**Prompt:**
+> Can you add tests for the route or service and also frontend tests?
+
+**Why I chose this prompt:** Felt that the current tests were not rigorous enough and didn't test the routing
+
+**What I kept / changed / rejected and why:** Kept all the tests, they allow future changes to be checked more thoroughly
 
 ---

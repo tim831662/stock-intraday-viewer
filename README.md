@@ -76,11 +76,13 @@ The preview server proxies `/api` to port 3001, same as dev. Search from the UI 
 
 ## Tests
 
-Server unit tests:
+Server and client tests:
 
 ```powershell
 npm test
 ```
+
+Server tests cover the grouping logic and `GET /api/stocks/:symbol/daily` with Yahoo mocked. Client tests cover the search form, status messages, table, and a search on the page.
 
 Optional live Yahoo check:
 
