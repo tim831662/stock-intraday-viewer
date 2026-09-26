@@ -148,6 +148,16 @@
 
 ---
 
+## Entry 13 - README for local setup and run
+**Prompt:**
+> Write up the readme that includes Setup and run instructions so a reviewer can build and run both backend and frontend locally
+
+**Why I chose this prompt:** _____
+
+**What I kept / changed / rejected and why:** _____
+
+---
+
 ## After the MVP
 
 Left for later, not part of this build:
@@ -155,5 +165,4 @@ Left for later, not part of this build:
 - A short in-memory cache (about 60s) for Yahoo responses
 - Frontend component tests (Vitest + React Testing Library)
 - API route tests with a mocked Yahoo client (supertest)
-- A README with setup, run, and test instructions
 - Rate limiting on the API
