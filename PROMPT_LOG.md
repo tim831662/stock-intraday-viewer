@@ -105,3 +105,13 @@
 **Why I chose this prompt:** _____
 
 **What I kept / changed / rejected and why:** _____
+
+---
+
+## Entry 9 - Phase 5: Frontend skeleton and API layer
+**Prompt:**
+> phase 4 is done and working. now implement phase 5. stop after this phase and tell me how to verify it.
+
+**Why I chose this prompt:** _____
+
+**What I kept / changed / rejected and why:** _____
