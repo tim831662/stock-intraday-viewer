@@ -32,9 +32,9 @@
 >
 > you can add this prompt log thing into the implementation plan
 
-**Why I chose this prompt:** _____
+**Why I chose this prompt:** I took preliminary notes on how the project should be built and what it needs on a high level and wanted it to be built in phases.
 
-**What I kept / changed / rejected and why:** _____
+**What I kept / changed / rejected and why:** I kept the md file generated because it was a detailed phase implementation plan, that fulfilled my requirements and added more implementation details that made sense
 
 ---
 
@@ -42,9 +42,7 @@
 **Prompt:**
 > Timezone: exchange-local. Symbols: everything Yahoo supports. Nulls: skip null candles, drop all-null days. Extras (cache, FE tests, API tests, README, rate limiting): add these ideas at the end of the MVP, and we can think about implementing them later.
 
-**Why I chose this prompt:** _____
-
-**What I kept / changed / rejected and why:** _____
+**Why I chose this prompt:** Just answering the AI's questions according to how I wanted the project to be implemented
 
 ---
 
@@ -52,9 +50,9 @@
 **Prompt:**
 > implement phase 0 from the implementation plan md. only do this phase, don't start the next one. when you're done, tell me what files you made and how to run the check.
 
-**Why I chose this prompt:** _____
+**Why I chose this prompt:** To have the agent start the project with phase 0 and make sure it doesn't move on
 
-**What I kept / changed / rejected and why:** _____
+**What I kept / changed / rejected and why:** I kept the changes, it just did a set up essentially
 
 ---
 
@@ -62,9 +60,9 @@
 **Prompt:**
 > phase 0 is done and working. now implement phase 1. stop after this phase and tell me how to verify it.
 
-**Why I chose this prompt:** _____
+**Why I chose this prompt:** Moving on to next phase after phase 0 was completed
 
-**What I kept / changed / rejected and why:** _____
+**What I kept / changed / rejected and why:** I kept all the changes
 
 ---
 
@@ -72,9 +70,9 @@
 **Prompt:**
 > phase 1 is done and working. now implement phase 2. stop after this phase and tell me how to verify it.
 
-**Why I chose this prompt:** _____
+**Why I chose this prompt:** Moving on to phase 2
 
-**What I kept / changed / rejected and why:** _____
+**What I kept / changed / rejected and why:** Most of it, in the next prompt I had some tests added/changed.
 
 ---
 
@@ -82,9 +80,9 @@
 **Prompt:**
 > ok can you check the tests and again and make sure they cover what is needed? For example, I don't see it checking for 0 volume. Look at all the tests again and let me know what you change/added
 
-**Why I chose this prompt:** _____
+**Why I chose this prompt:** Looking through the tests, it wasn't as strict as I wanted it to be
 
-**What I kept / changed / rejected and why:** _____
+**What I kept / changed / rejected and why:** Kept it all as it added and fixed tests.
 
 ---
 
@@ -92,9 +90,9 @@
 **Prompt:**
 > phase 2 is done and working. now implement phase 3. stop after this phase and tell me how to verify it.
 
-**Why I chose this prompt:** _____
+**Why I chose this prompt:** Moving onto phase 3
 
-**What I kept / changed / rejected and why:** _____
+**What I kept / changed / rejected and why:** Kept all
 
 ---
 
@@ -102,9 +100,9 @@
 **Prompt:**
 > phase 3 is done and working. now implement phase 4. stop after this phase and tell me how to verify it.
 
-**Why I chose this prompt:** _____
+**Why I chose this prompt:** Moving onto phase 4
 
-**What I kept / changed / rejected and why:** _____
+**What I kept / changed / rejected and why:** Kept all
 
 ---
 
@@ -112,9 +110,9 @@
 **Prompt:**
 > phase 4 is done and working. now implement phase 5. stop after this phase and tell me how to verify it.
 
-**Why I chose this prompt:** _____
+**Why I chose this prompt:** Moving onto phase 5
 
-**What I kept / changed / rejected and why:** _____
+**What I kept / changed / rejected and why:** Kept all
 
 ---
 
@@ -122,9 +120,9 @@
 **Prompt:**
 > phase 5 is done and working. now implement phase 6. stop after this phase and tell me how to verify it.
 
-**Why I chose this prompt:** _____
+**Why I chose this prompt:** Moving onto phase 6
 
-**What I kept / changed / rejected and why:** _____
+**What I kept / changed / rejected and why:** Kept all
 
 ---
 
@@ -132,9 +130,9 @@
 **Prompt:**
 > phase 6 is done and working. now implement phase 7. stop after this phase and tell me how to verify it.
 
-**Why I chose this prompt:** _____
+**Why I chose this prompt:** Moving onto phase 7
 
-**What I kept / changed / rejected and why:** _____
+**What I kept / changed / rejected and why:** Kept all
 
 ---
 
@@ -142,9 +140,9 @@
 **Prompt:**
 > Refractor the frontend to make it look more professional and production level. Do not make logic changes. Then put this prompt in the prompt log
 
-**Why I chose this prompt:** _____
+**Why I chose this prompt:** UI was very basic and was not production ready so wanted to upgrade it.
 
-**What I kept / changed / rejected and why:** _____
+**What I kept / changed / rejected and why:** Kept it all, made the app much more clean and appealing.
 
 ---
 
@@ -152,17 +150,8 @@
 **Prompt:**
 > Write up the readme that includes Setup and run instructions so a reviewer can build and run both backend and frontend locally
 
-**Why I chose this prompt:** _____
+**Why I chose this prompt:** Finished with having it right the readme so that people know how to run the app
 
-**What I kept / changed / rejected and why:** _____
+**What I kept / changed / rejected and why:** Kept it all, just a simple explanation of how it works.
 
 ---
-
-## After the MVP
-
-Left for later, not part of this build:
-
-- A short in-memory cache (about 60s) for Yahoo responses
-- Frontend component tests (Vitest + React Testing Library)
-- API route tests with a mocked Yahoo client (supertest)
-- Rate limiting on the API
