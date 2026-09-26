@@ -95,3 +95,13 @@
 **Why I chose this prompt:** _____
 
 **What I kept / changed / rejected and why:** _____
+
+---
+
+## Entry 8 - Phase 4: Wire the daily stocks endpoint
+**Prompt:**
+> phase 3 is done and working. now implement phase 4. stop after this phase and tell me how to verify it.
+
+**Why I chose this prompt:** _____
+
+**What I kept / changed / rejected and why:** _____
