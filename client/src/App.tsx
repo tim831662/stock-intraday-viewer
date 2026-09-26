@@ -1,26 +1,32 @@
+import { AveragesChart } from "./components/AveragesChart";
+import { DailyTable } from "./components/DailyTable";
+import { SearchBar } from "./components/SearchBar";
+import { StatusMessage } from "./components/StatusMessage";
 import { useDailyStock } from "./hooks/useDailyStock";
 
 export function App() {
   const { status, data, error, search } = useDailyStock();
+  const rows = status === "success" && data && data.length > 0 ? data : null;
 
-  async function loadSample() {
-    try {
-      const daily = await search("AAPL");
-      console.log(daily);
-    } catch (loadError) {
-      console.error(loadError);
-    }
+  function handleSearch(symbol: string) {
+    void search(symbol).catch(() => {
+      // StatusMessage renders the error stored by the hook.
+    });
   }
 
   return (
     <main>
       <h1>Stock intraday viewer</h1>
-      <button type="button" onClick={loadSample} disabled={status === "loading"}>
-        Load AAPL
-      </button>
-      <p>Status: {status}</p>
-      {status === "success" && data ? <p>Loaded {data.length} days</p> : null}
-      {status === "error" && error ? <p>{error}</p> : null}
+      <SearchBar loading={status === "loading"} onSearch={handleSearch} />
+      <StatusMessage status={status} error={error} isEmpty={status === "success" && data?.length === 0} />
+      {rows ? (
+        <>
+          <h2>Daily averages</h2>
+          <DailyTable rows={rows} />
+          <h2>Averages</h2>
+          <AveragesChart rows={rows} />
+        </>
+      ) : null}
     </main>
   );
 }

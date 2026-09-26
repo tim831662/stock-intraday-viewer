@@ -13,7 +13,12 @@ export class StockApiError extends Error {
 }
 
 export async function fetchDailyStock(symbol: string): Promise<DailySummary[]> {
-  const response = await fetch(`/api/stocks/${encodeURIComponent(symbol)}/daily`);
+  let response: Response;
+  try {
+    response = await fetch(`/api/stocks/${encodeURIComponent(symbol)}/daily`);
+  } catch {
+    throw new StockApiError("Request failed");
+  }
 
   if (!response.ok) {
     throw new StockApiError(await readErrorMessage(response));

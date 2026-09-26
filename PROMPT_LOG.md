@@ -115,3 +115,13 @@
 **Why I chose this prompt:** _____
 
 **What I kept / changed / rejected and why:** _____
+
+---
+
+## Entry 10 - Phase 6: Search UI, table, and chart
+**Prompt:**
+> phase 5 is done and working. now implement phase 6. stop after this phase and tell me how to verify it.
+
+**Why I chose this prompt:** _____
+
+**What I kept / changed / rejected and why:** _____
