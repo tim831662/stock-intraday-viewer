@@ -125,3 +125,25 @@
 **Why I chose this prompt:** _____
 
 **What I kept / changed / rejected and why:** _____
+
+---
+
+## Entry 11 - Phase 7: MVP wrap-up
+**Prompt:**
+> phase 6 is done and working. now implement phase 7. stop after this phase and tell me how to verify it.
+
+**Why I chose this prompt:** _____
+
+**What I kept / changed / rejected and why:** _____
+
+---
+
+## After the MVP
+
+Left for later, not part of this build:
+
+- A short in-memory cache (about 60s) for Yahoo responses
+- Frontend component tests (Vitest + React Testing Library)
+- API route tests with a mocked Yahoo client (supertest)
+- A README with setup, run, and test instructions
+- Rate limiting on the API
