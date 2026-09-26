@@ -4,28 +4,28 @@ overview: "Build the full-stack stock viewer in 8 phases. Each phase ends with s
 todos:
   - id: p0
     content: "Phase 0: root workspaces package.json, .gitignore, create PROMPT_LOG.md from template"
-    status: pending
+    status: completed
   - id: p1
     content: "Phase 1: Express skeleton (app/index split, health route, AppError, errorHandler, route registry)"
-    status: pending
+    status: completed
   - id: p2
     content: "Phase 2: aggregateDaily + round4 with exchange-timezone grouping and full unit tests"
-    status: pending
+    status: completed
   - id: p3
     content: "Phase 3: validateSymbol + yahoo.client (timeout, UA, encoding, error mapping) with mocked tests"
-    status: pending
+    status: completed
   - id: p4
     content: "Phase 4: stocks service + route for GET /api/stocks/:symbol/daily, curl verification"
-    status: pending
+    status: completed
   - id: p5
     content: "Phase 5: Vite React client, /api proxy, api/stocks.ts, useDailyStock hook"
-    status: pending
+    status: completed
   - id: p6
     content: "Phase 6: SearchBar, StatusMessage, DailyTable, AveragesChart (Recharts)"
-    status: pending
+    status: completed
   - id: p7
     content: "Phase 7: build both apps, manual end-to-end pass, finalize PROMPT_LOG.md; list post-MVP ideas"
-    status: pending
+    status: completed
 isProject: false
 ---
 

@@ -165,3 +165,8 @@
 **What I kept / changed / rejected and why:** Kept all the tests, they allow future changes to be checked more thoroughly
 
 ---
+
+## Manual changes
+- I didn't edit code by hand. I reviewed each phase by running that phase's check and confirming it worked or use another prompt to fix what I think is needed.
+
+---
