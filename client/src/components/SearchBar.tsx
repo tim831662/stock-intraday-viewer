@@ -21,17 +21,20 @@ export function SearchBar({ loading, onSearch }: SearchBarProps) {
 
   return (
     <form className="search-bar" onSubmit={handleSubmit}>
-      <label htmlFor="symbol">
+      <label className="search-bar__field" htmlFor="symbol">
         Symbol
         <input
           id="symbol"
           name="symbol"
+          className="search-bar__input"
+          placeholder="e.g. AAPL, MSFT, ^GSPC"
           value={value}
           onChange={(event) => setValue(event.target.value)}
           autoComplete="off"
+          spellCheck={false}
         />
       </label>
-      <button type="submit" disabled={disabled}>
+      <button className="button" type="submit" disabled={disabled}>
         Search
       </button>
     </form>

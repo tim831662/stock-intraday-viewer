@@ -138,6 +138,16 @@
 
 ---
 
+## Entry 12 - Frontend visual polish
+**Prompt:**
+> Refractor the frontend to make it look more professional and production level. Do not make logic changes. Then put this prompt in the prompt log
+
+**Why I chose this prompt:** _____
+
+**What I kept / changed / rejected and why:** _____
+
+---
+
 ## After the MVP
 
 Left for later, not part of this build:

@@ -9,7 +9,7 @@ const volumeFormat = new Intl.NumberFormat("en-US");
 export function DailyTable({ rows }: DailyTableProps) {
   return (
     <div className="table-wrap">
-      <table>
+      <table className="data-table">
         <thead>
           <tr>
             <th scope="col">Day</th>
